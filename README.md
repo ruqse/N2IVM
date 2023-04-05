@@ -2,6 +2,8 @@
 
 # RNA-Seq Nextflow Pipeline for Ivermectin-Exposed C. elegans (N2)
 
+This pipeline was used to analyze RNAseq data that found [here](https://www.ebi.ac.uk/ena/browser/view/PRJEB59331)
+
 ## Creating Decoy Sequence headers and Gentrome for C. elegans RNA-Seq Analysis
 
 
