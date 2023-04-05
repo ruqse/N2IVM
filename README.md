@@ -67,6 +67,7 @@ Processes
 6. MULTIQC: Aggregates results from Salmon and FastQC in a single report using MultiQC.
 
 **Workflow**
+
 The pipeline processes input files in parallel and aggregates results using the specified output directories. The final output includes the MultiQC report, which summarizes quality control and quantification results.
 
 Once you have completed quantifying the salmon, you can move forward with downstream analysis using differential expression tools such as DESeq2 or edgeR. With the help of the tximport package, you can easily import transcript-level quantifications from salmon and choose to aggregate them to the gene level for gene-level differential expression analysis.
